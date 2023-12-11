@@ -1,3 +1,7 @@
+# This Makefile is configured for building under Linux (using MinGW-w64).
+# If you do not use Linux, you can rewrite CC inside "win32" and "win64" targets into your own
+# (in example, just "gcc") ;)
+
 CC=gcc
 SOURCE=KeyGotta.c
 OUT=KeyGotta.exe
